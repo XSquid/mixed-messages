@@ -1,0 +1,19 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "Scope: Create a message generator. For this project I will make the output telling me what I want to play in classic wow, including the race and class. First, I will have it randomly pick a race to play. Then, I will have it pick the class, as class is restricted based on race. I want to try and do this using objects, I will have each race as an object and the classes as properties.",
+  "main": "class-selector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XSquid/mixed-messages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XSquid/mixed-messages/issues"
+  },
+  "homepage": "https://github.com/XSquid/mixed-messages#readme"
+}
