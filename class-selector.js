@@ -51,4 +51,5 @@ console.log(allRaces[raceNum].race + " " + allRaces[raceNum].classes[classNum])
 myChoice.racePick = allRaces[raceNum].race
 myChoice.classPick = allRaces[raceNum].classes[classNum]
 
-console.log (myChoice)
+outputSentence = `You are going to level a ${myChoice.racePick} ${myChoice.classPick}`
+console.log (outputSentence)
