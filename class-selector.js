@@ -43,10 +43,10 @@ const allRaces = [orc, undead, tauren, troll, human, dwarf, nelf, gnome]
 let raceNum = Math.floor(Math.random() * allRaces.length)
 let classNum = Math.floor(Math.random() * allRaces[raceNum].classes.length)
 
-console.log(raceNum)
-console.log(classNum)
+//console.log(raceNum)
+//console.log(classNum)
 
-console.log(allRaces[raceNum].race + " " + allRaces[raceNum].classes[classNum])
+//console.log(allRaces[raceNum].race + " " + allRaces[raceNum].classes[classNum])
 
 myChoice.racePick = allRaces[raceNum].race
 myChoice.classPick = allRaces[raceNum].classes[classNum]
